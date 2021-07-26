@@ -4,7 +4,6 @@
 # QT GUI INTERFACE BY: WANDERSON M.PIMENTA (https://github.com/Wanderson-Magalhaes)
 # ORIGINAL QT GUI: https://github.com/Wanderson-Magalhaes/Simple_PySide_Base
 ####################################################################################
-
 import sys
 import os
 import platform
@@ -15,13 +14,11 @@ from cryptography.fernet import Fernet
 #from PySide2.QtCore import (QCoreApplication, QPropertyAnimation, QDate, QDateTime, QMetaObject, QObject, QPoint, QRect, QSize, QTime, QUrl, Qt, QEvent)
 #from PySide2.QtGui import (QBrush, QColor, QConicalGradient, QCursor, QFont, QFontDatabase, QIcon, QKeySequence, QLinearGradient, QPalette, QPainter, QPixmap, QRadialGradient)
 #from PySide2.QtWidgets import *
-
 from PyQt5 import QtGui, QtCore, QtWidgets
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtWidgets import *
-
 from bin.set_key import server_key
 from bin.config import SERVER_IP, PORT, PORT_VIDEO
 
